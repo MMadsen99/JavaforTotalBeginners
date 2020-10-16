@@ -12,13 +12,31 @@ public class Person {
     private  int maximumBooks; // most books the person can check out
 
 
-    //constructor
+    //constructor ( bruges til og lave objekter)
 
     public Person() {
-        name = "Peter";
+        name = " ";
         maximumBooks = 3;
     }
 
+    //Getter and Setters (metoder)
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+//Getter and Setters (metoder)
+
+
+    public int getMaximumBooks() {
+        return maximumBooks;
+    }
+
+    public void setMaximumBooks(int maximumBooks) {
+        this.maximumBooks = maximumBooks;
+    }
 
 }
 
