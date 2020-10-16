@@ -1,7 +1,6 @@
 package JavaForbeginner;
 
 
-import java.util.ArrayList;
 
 //classes starter altid med stort
 public class Person {
