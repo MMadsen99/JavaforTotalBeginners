@@ -14,7 +14,7 @@ public class Person {
     //constructor ( bruges til og lave objekter)
 
     public Person() {
-        name = " ";
+        name = "unknown name";
         maximumBooks = 3;
     }
 
@@ -37,5 +37,8 @@ public class Person {
         this.maximumBooks = maximumBooks;
     }
 
+    public String toString() {
+        return this.getName() + " (" + this.getMaximumBooks() + " book)";
+    }
 }
 
